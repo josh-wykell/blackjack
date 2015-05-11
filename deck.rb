@@ -17,5 +17,10 @@ class Deck
   def shuffle
     @cards.shuffle!   
   end
+
+  def draw
+    @cards.shift
+  end
+
 end
 
